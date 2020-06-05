@@ -12,9 +12,9 @@
 
         $gender = "Homme";
         if ($gender != 'Homme') {
-            echo "<br>C'est une développeuse !!!";
+            print ('C\'est une développeuse !!!');
         } else {
-            echo "<br>C'est un développeur";
+            print ('C\'est un développeur !!!');
         }
         
 

@@ -13,6 +13,9 @@
     } else {
         print "C'est difficile !!";
     };
+
+    $isEasy = TRUE;
+    echo ($isEasy) ? 'C\'est facile !!' : 'C\'est difficile !!';
     ?>
 </body>
 </html>
